@@ -3,6 +3,8 @@
 
 *{
     font-family: 'Montserrat', sans-serif;
+    -webkit-user-drag: none;
+    user-select: none;
 }
 
 body{
@@ -13,7 +15,7 @@ body{
 nav {
     height: 60px;
     align-items: center;
-    
+    user-select: none;
 }
 
 nav ul {
@@ -27,10 +29,6 @@ nav ul {
 }
 nav ul li {
     cursor: pointer;
-}
-nav ul li:hover{
-    color: rgb(65, 65, 165);
-    border-top: 5px solid;
 }
 #language {
     padding: 10px;
@@ -48,6 +46,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 600px;
+    user-select: none;
 }
 .main-header {
     text-align: center;
@@ -74,4 +73,59 @@ header {
 }
 .main-header button:hover {
     background: rgba(221, 221, 221, 0.205);
+}
+.header-text {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 100px;
+    align-items: center;
+    justify-content: center;
+}
+.header-text p {
+    font-size: 1.1rem;
+}
+
+.icon-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(17, 17, 17);
+    color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 100px 0px ;
+}
+
+.icon-part-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.list-icon-part {
+    max-width: 300px;
+}
+
+.lip-logo {
+    margin-bottom: 30px;
+}
+.list-icon-part h3{
+    text-transform: uppercase;
+}
+.list-icon-part p {
+    font-size: 0.9rem;
+}
+.list-icon-part button {
+    padding: 10px 25px;
+    margin-top: 20px;
+    border: 1px solid rgba(245, 244, 244, 0.452);
+    color: rgb(240, 240, 240);
+    text-transform: uppercase;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    word-spacing: 2px;
+    transition: 0.2s;
+}
+.list-icon-part button:hover {
+    background: rgba(221, 221, 221, 0.123);
 }
