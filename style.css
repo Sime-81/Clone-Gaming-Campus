@@ -147,6 +147,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 100px 40px;
+    background: rgb(248, 248, 248);
 }
 
 .header-news {
@@ -215,3 +216,4 @@ header {
     text-decoration: underline;
     text-underline-offset: 3px;
 }
+
