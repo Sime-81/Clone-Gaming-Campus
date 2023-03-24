@@ -217,3 +217,21 @@ header {
     text-underline-offset: 3px;
 }
 
+.contact {
+    display: flex;
+}
+
+.contact-container {
+    display: block;
+    width: 100%;
+}
+
+.contact-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.list {
+    max-width: 200px;
+}
