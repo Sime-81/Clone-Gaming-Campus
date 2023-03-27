@@ -224,14 +224,26 @@ header {
 
 .contact a {
     text-decoration: none;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact ul li {
+    margin-top: 5px;
+    font-weight: bold;
+
 }
 
 .contact h5 {
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
 
 .contact p {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: bold;
 }
 
@@ -244,13 +256,37 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.contact-list::after p {
+    margin-top: 0;
 }
 
 .list {
     max-width: 200px;
 }
 
+.list h6 {
+    margin: 4px;
+}
+
+
 .infos-p {
     list-style: none;
     padding: 0;
+    margin-top: 0;
+}
+
+.network {
+    margin-bottom: 0;
+}
+
+.footer-logos i{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    margin-bottom: 0;
 }
