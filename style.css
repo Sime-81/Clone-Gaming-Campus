@@ -219,6 +219,20 @@ header {
 
 .contact {
     display: flex;
+    padding: 40px 0px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact h5 {
+    text-transform: uppercase;
+}
+
+.contact p {
+    font-size: 0.7rem;
+    font-weight: bold;
 }
 
 .contact-container {
@@ -234,4 +248,9 @@ header {
 
 .list {
     max-width: 200px;
+}
+
+.infos-p {
+    list-style: none;
+    padding: 0;
 }
