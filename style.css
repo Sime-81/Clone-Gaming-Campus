@@ -261,6 +261,8 @@ header {
 
 .contact-list::after p {
     margin-top: 0;
+    padding: 1px;
+    background-color: black;
 }
 
 .list {
