@@ -272,15 +272,6 @@ header {
     margin-bottom: 30px;
 }
 
-.contact-list::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 90%;
-    background: black;
-    bottom: -20px;
-}
-
 .list {
     max-width: 200px;
 }
@@ -306,4 +297,18 @@ header {
 
 .copyright {
     margin-bottom: 0;
+}
+
+.contact-list::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 90%;
+    background: black;
+    bottom: -20px;
+}
+
+
+.contact-medias {
+    display: flex;
 }
