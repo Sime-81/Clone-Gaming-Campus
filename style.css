@@ -338,3 +338,24 @@ header {
     justify-content: space-around;
     margin-right: 3%;
 }
+
+footer {
+    background: rgb(17, 17, 17);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+footer ul {
+    width: 99%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
