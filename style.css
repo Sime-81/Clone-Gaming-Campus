@@ -359,3 +359,7 @@ footer ul {
     justify-content: center;
     padding: 0;
 }
+
+footer li {
+    margin: 1.2%;
+}
