@@ -379,6 +379,9 @@ footer li {
     nav ul{
         display: none;
     }
+    .header-text {
+        padding: 30px 30px;
+    }
     footer ul {
         justify-content: space-around;
     }
@@ -431,5 +434,32 @@ footer li {
     }
 }
 @media screen and (max-width:600px){
-    
+    #logo img {
+        height: 200px;
+    }
+    .header-text {
+        padding: 30px 10px;
+    }
+    .header-text p{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:460px){
+    #logo img {
+        height: 150px;
+    }
+    .main-header h1 {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:350px){
+    #logo img {
+        height: 100px;
+    }
+    .main-header h1 {
+        font-size: 0.9rem;
+    }
+    .header-text p{
+        font-size: 0.7rem;
+    }
 }
