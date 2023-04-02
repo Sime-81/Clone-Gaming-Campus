@@ -52,7 +52,9 @@ nav ul li:hover {
 }
 
 header {
-    background: url(./assets/img/bg.jpg) center/cover no-repeat;
+    background: url(./assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
     display: flex;
