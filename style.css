@@ -363,3 +363,27 @@ footer ul {
 footer li {
     margin: 1.2%;
 }
+
+/*  Medias Querie */
+
+@media screen and (max-width:1000px ){
+    footer img {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:970px ){
+    nav,
+    nav ul{
+        visibility: hidden;
+        margin: 0%;
+        padding: 0%;
+        height: 0;
+    }
+    footer ul {
+        justify-content: space-around;
+    }
+    footer img {
+        height: 15px;
+    }
+}
